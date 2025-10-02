@@ -1,18 +1,83 @@
 <!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Landing Page</title>
-<style>
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;display:grid;place-items:center;height:100vh}
-  main{text-align:center;padding:2rem;max-width:680px}
-  h1{font-size:2.25rem;margin:0 0 .5rem}
-  p{color:#555;margin:.25rem 0 1rem}
-  a.button{display:inline-block;padding:.75rem 1rem;border-radius:.75rem;border:1px solid #ddd;text-decoration:none}
-</style>
-<main>
-  <h1>Something great is coming</h1>
-  <p>Short pitch about your product or service.</p>
-  <a class="button" href="mailto:you@example.com">Contact me</a>
-</main>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Provozaj se samnom po Zagrebu</title>
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card:#0f172a;
+      --txt:#e5e7eb;
+      --muted:#9aa4b2;
+      --accent:#22d3ee;
+      --radius: 16px;
+      --shadow: 0 16px 40px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100dvh;
+      display:grid; place-items:center;
+      background:
+        radial-gradient(1000px 500px at 80% -10%, rgba(34,211,238,.15), transparent 60%),
+        var(--bg);
+      color:var(--txt); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial;
+    }
+    .card{
+      width:min(920px, 94vw);
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .content{padding: clamp(18px, 3vw, 28px)}
+    h1{
+      margin:.2em 0 .1em;
+      font-size: clamp(28px, 6vw, 52px);
+      line-height:1.1;
+      letter-spacing:.2px;
+    }
+    .sub{
+      margin:0 0 16px;
+      font-size: clamp(16px, 3.2vw, 22px);
+      color: var(--muted);
+    }
+    .badge{
+      display:inline-block;
+      margin:.6rem 0 1rem;
+      padding:.5rem .9rem;
+      font-weight:700;
+      border-radius:999px;
+      background: rgba(34,211,238,.15);
+      border:1px solid rgba(34,211,238,.4);
+    }
+    .media{
+      display:block;
+      width:100%;
+      max-height: 60vh;
+      object-fit: cover;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+    .note{margin-top:10px; font-size:13px; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="content">
+      <h1>Provozaj se samnom po Zagrebu</h1>
+      <p class="sub">Popust <span class="badge">50% za tratinčice</span></p>
+      <!-- Po želji: kratki opis ili CTA -->
+      <!-- <a href="#" style="color:var(--accent);font-weight:600;">Rezerviraj vožnju →</a> -->
+    </div>
+
+    <!-- Umetnuta fotografija iz istog repozitorija (relativna putanja) -->
+    <img
+      class="media"
+      src="./assets/filip.jpg"
+      alt="Fotografija Zagreba ili vožnje – zamijenite vlastitom slikom iz repozitorija" />
+  </main>
+
+  <!-- Savjet: ako je ovo na GitHub Pages, zadržite relativnu putanju (./assets/...), a sliku stavite u taj folder. -->
+</body>
 </html>
