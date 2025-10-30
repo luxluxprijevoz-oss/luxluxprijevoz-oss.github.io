@@ -39,7 +39,7 @@
  
 .content-list1-max-width1 {
   gap: var(--dl-layout-space-threeunits);
-  width: 1160px;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -378,7 +378,7 @@
   }
   .content-list1-content4 {
     color: #ffffff;
-    width: 477px;
+    width: 100%;
     text-align: center;
     background-color: #1d73ae;
   }
