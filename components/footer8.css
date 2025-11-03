@@ -5,11 +5,16 @@
   position: relative;
   align-items: center;
   padding-top: 0px;
+  border-color: #ababab;
+  border-width: 1px;
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
   padding-bottom: 0px;
   justify-content: center;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
  
 .footer8-max-width {
