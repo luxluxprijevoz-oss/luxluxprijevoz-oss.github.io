@@ -384,7 +384,7 @@
  
 @media(max-width: 479px) {
   .content-list1-container1 {
-    height: 962px;
+    height: 1000px;
     padding-bottom: 0px;
     justify-content: center;
   }
@@ -402,9 +402,9 @@
     text-align: center;
   }
   .content-list1-contact20 {
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 724px;
+    padding: 0px;
+    margin-top: 0px;
   }
   .content-list1-max-width {
     width: 100%;
@@ -575,6 +575,12 @@
   .content-list12-li1 {
     width: 1600px;
     overflow: hidden;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .content-list12-content6 {
+    width: 796px;
   }
 }
  
