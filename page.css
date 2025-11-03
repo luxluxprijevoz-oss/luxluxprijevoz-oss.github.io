@@ -12,6 +12,7 @@
  
 .navbar2-navbar-interactive {
   width: 100%;
+  height: var(--dl-layout-size-xlarge);
   display: flex;
   align-items: center;
   padding-top: var(--dl-layout-space-twounits);
@@ -96,6 +97,8 @@
  
 
  
+
+ 
 @media(max-width: 767px) {
   .navbar2-navbar-interactive {
     padding-left: var(--dl-layout-space-twounits);
@@ -124,6 +127,9 @@
   }
   .navbar2-mobile-menu {
     padding: var(--dl-layout-space-unit);
+  }
+  .navbar2root-class-name1 {
+    padding: 0px;
   }
 }
 
@@ -236,11 +242,16 @@
   position: relative;
   align-items: center;
   padding-top: 0px;
+  border-color: #ababab;
+  border-width: 1px;
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
   padding-bottom: 0px;
   justify-content: center;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
  
 .footer8-max-width {
