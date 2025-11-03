@@ -152,6 +152,12 @@
   }
 }
  
+@media(max-width: 1200px) {
+  .content-list12-content6 {
+    width: 796px;
+  }
+}
+ 
 @media(max-width: 767px) {
   .content-list12-li1 {
     width: 100%;
