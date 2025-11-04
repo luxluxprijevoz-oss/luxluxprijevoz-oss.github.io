@@ -54,7 +54,7 @@
  
 .content-list1-max-width {
   gap: var(--dl-layout-space-threeunits);
-  width: 1160px;
+  width: 1260px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
