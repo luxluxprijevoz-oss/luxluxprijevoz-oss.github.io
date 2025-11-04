@@ -570,10 +570,12 @@
  
 @media(max-width: 1600px) {
   .content-list12-ul {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
   }
   .content-list12-li1 {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     overflow: hidden;
   }
 }
