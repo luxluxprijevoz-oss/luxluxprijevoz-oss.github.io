@@ -466,7 +466,6 @@
  
 .content-list12-content4 {
   width: 100%;
-  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -493,9 +492,9 @@
 }
  
 .content-list12-content5 {
+  width: 100%;
   color: #1c72af;
   height: 101px;
-  display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -516,6 +515,7 @@
 }
  
 .content-list12-content6 {
+  width: 100%;
   height: var(--dl-layout-size-xlarge);
   text-align: center;
 }
